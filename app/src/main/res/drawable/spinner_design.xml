@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+
+            <solid
+                android:color="@color/white" />
+
+            <corners android:radius="3dp" />
+
+            <padding
+                android:bottom="10dp"
+                android:left="10dp"
+                android:right="10dp"
+                android:top="10dp" />
+
+            <stroke
+                android:width="2dp"
+                android:color="@color/black" />
+        </shape>
+    </item>
+    <!-- spinner_ab_default_new_theme_bs -> this image for corner triangle -->
+    <item >
+        <shape>
+            <solid
+                android:color="@color/white">
+            </solid>
+
+            <corners android:radius="3dp" />
+
+            <padding
+                android:bottom="10dp"
+                android:left="10dp"
+                android:right="10dp"
+                android:top="10dp" />
+            <stroke
+                android:width="2dp"
+                android:color="#828282"/>
+        </shape>
+    </item>
+</selector>
+
+
+<!--
+    <?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:state_pressed="true"
+    android:drawable="@drawable/spinner_ab_pressed_new_theme_bs">
+    <shape>
+
+        <solid
+            android:color="@color/white" />
+
+        <corners android:radius="3dp" />
+
+        <padding
+            android:bottom="10dp"
+            android:left="10dp"
+            android:right="10dp"
+            android:top="10dp" />
+
+        <stroke
+            android:width="2dp"
+            android:color="@color/black" />
+    </shape>
+</item>
+&lt;!&ndash; spinner_ab_default_new_theme_bs -> this image for corner triangle &ndash;&gt;
+<item
+
+    android:drawable="@drawable/spinner_ab_default_new_theme_bs" >
+    <shape>
+        <solid
+            android:color="@color/white">
+        </solid>
+
+        <corners android:radius="3dp" />
+
+        <padding
+            android:bottom="10dp"
+            android:left="10dp"
+            android:right="10dp"
+            android:top="10dp" />
+        <stroke
+            android:width="2dp"
+            android:color="@color/grey"/>
+    </shape>
+</item>
+</selector>-->

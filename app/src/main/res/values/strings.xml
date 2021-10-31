@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">SofitDemoApp</string>
+    <string name="valid_image">not valid image</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Favourite Drinks</string>
+    <string name="title_notifications">Notifications</string>
+</resources>

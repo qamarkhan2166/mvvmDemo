@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/_5sdp"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <ImageView
+            android:id="@+id/cameraImage"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:src="@drawable/ic_person_grey"
+            android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/txtDrinkName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Drink Name"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:layout_toRightOf="@+id/cameraImage"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_10sdp"/>
+
+
+    <TextView
+        android:id="@+id/drinksDescription"
+        android:layout_below="@+id/txtDrinkName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Drink Name wfowuoj njeoj oje joe oj joe  jjoe joejr jo eeoo oe oje joeo"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:layout_toRightOf="@+id/cameraImage"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_1sdp"/>
+
+
+</RelativeLayout>

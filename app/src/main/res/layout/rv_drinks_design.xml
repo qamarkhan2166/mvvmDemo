@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_5sdp"
+    android:padding="@dimen/_5sdp"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card"
+        android:layout_margin="@dimen/_5sdp"
+        android:layout_width="@dimen/_60sdp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_height="@dimen/_60sdp"
+        app:cardCornerRadius="@dimen/_40sdp">
+
+        <ImageView
+            android:id="@+id/cameraImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_person_grey"
+            android:scaleType="centerCrop"/>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/txtDrinkName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_toLeftOf="@+id/imgFav"
+        android:layout_toRightOf="@+id/card"
+        android:text="Drink Name"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/drinksDescription"
+        android:layout_below="@+id/txtDrinkName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Drink Name wfowuoj njeoj oje joe oj joe  jjoe joejr jo eeoo oe oje joeo"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:layout_toLeftOf="@+id/imgFav"
+        android:layout_toRightOf="@+id/card"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_2sdp"/>
+
+    <ImageView
+        android:id="@+id/imgFav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_toLeftOf="@+id/textAlcohol"
+        android:src="@drawable/ic_baseline_star_outline_24" />
+    <TextView
+        android:id="@+id/textAlcohol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alcohol"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/_15sdp"/>
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textAlcohol"
+        android:layout_alignParentEnd="true"
+        android:clickable="false"
+        android:enabled="false"
+        android:buttonTint="@color/colorPrimaryDark"
+        android:layout_marginRight="@dimen/_15sdp"/>
+</RelativeLayout>
